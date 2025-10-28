@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_sections_cards",
+  "info": {
+    "displayName": "card",
+    "icon": "collapse"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

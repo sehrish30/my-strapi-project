@@ -1,0 +1,29 @@
+{
+  "kind": "collectionType",
+  "collectionName": "components",
+  "info": {
+    "singularName": "component",
+    "pluralName": "components",
+    "displayName": "shared components"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "label": {
+      "type": "string",
+      "required": true
+    },
+    "component": {
+      "type": "dynamiczone",
+      "components": [
+        "sections.into",
+        "sections.card",
+        "sections.big-title",
+        "sections.components",
+        "sections.components"
+      ]
+    }
+  }
+}

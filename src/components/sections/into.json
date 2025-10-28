@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_sections_intos",
+  "info": {
+    "displayName": "into",
+    "icon": "chartPie"
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

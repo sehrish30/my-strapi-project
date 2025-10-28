@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_sections_components",
+  "info": {
+    "displayName": "Components",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string",
+      "required": true
+    },
+    "components": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::component.component"
+    }
+  }
+}

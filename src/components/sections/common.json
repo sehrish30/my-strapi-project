@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_sections_shareds",
+  "info": {
+    "displayName": "shared",
+    "icon": "play"
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string"
+    },
+    "section": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::shared-section.shared-section"
+    }
+  },
+  "config": {}
+}

@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "pages",
+  "info": {
+    "singularName": "page",
+    "pluralName": "pages",
+    "displayName": "page"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "showBreadcrumbs": {
+      "type": "boolean",
+      "required": false,
+      "default": false
+    },
+    "sections": {
+      "type": "dynamiczone",
+      "components": [
+        "sections.into",
+        "sections.card",
+        "sections.big-title",
+        "sections.components",
+        "sections.common"
+      ]
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_sections_big_titles",
+  "info": {
+    "displayName": "big-title",
+    "icon": "bell"
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}
