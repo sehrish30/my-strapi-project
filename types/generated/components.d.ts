@@ -59,7 +59,9 @@ export interface SectionsInto extends Struct.ComponentSchema {
     icon: 'chartPie';
   };
   attributes: {
+    icon: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
     label: Schema.Attribute.String;
+    NestedIntro: Schema.Attribute.Component<'shared.nested-intro', false>;
   };
 }
 
@@ -71,6 +73,17 @@ export interface SharedMedia extends Struct.ComponentSchema {
   };
   attributes: {
     file: Schema.Attribute.Media<'images' | 'files' | 'videos'>;
+  };
+}
+
+export interface SharedNestedIntro extends Struct.ComponentSchema {
+  collectionName: 'components_shared_nested_intros';
+  info: {
+    displayName: 'NestedIntro';
+    icon: 'cog';
+  };
+  attributes: {
+    label: Schema.Attribute.String;
   };
 }
 
@@ -134,6 +147,7 @@ declare module '@strapi/strapi' {
       'sections.components': SectionsComponents;
       'sections.into': SectionsInto;
       'shared.media': SharedMedia;
+      'shared.nested-intro': SharedNestedIntro;
       'shared.quote': SharedQuote;
       'shared.rich-text': SharedRichText;
       'shared.seo': SharedSeo;

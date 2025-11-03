@@ -8,6 +8,21 @@
   "attributes": {
     "label": {
       "type": "string"
+    },
+    "icon": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "NestedIntro": {
+      "type": "component",
+      "component": "shared.nested-intro",
+      "repeatable": false
     }
   },
   "config": {}

@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_shared_nested_intros",
+  "info": {
+    "displayName": "NestedIntro",
+    "icon": "cog"
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}
